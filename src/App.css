@@ -10,6 +10,16 @@
   pointer-events: none;
 }
 
+.App-Card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-Table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
